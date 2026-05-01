@@ -81,7 +81,12 @@ drosera dryrun
 
 ## Deployment Notes
 
-Before deployment, replace the placeholder `response_contract` in `drosera.toml` with the deployed `KelpDaoBridgeRiskResponse` or Kelp-approved incident router.
+Mainnet response deployment:
+
+- Response contract: `0xF729Ef4be7AA124e9d8C093d4C7E2a19378b549D`
+- Authorized Drosera Proxy: `0x01C344b8406c3237a6b9dbd06ef2832142866d87`
+- Deployment transaction: `0xe3d8d61b38e3e91a4c5bde4f9bf5403e94f8f454038c9b060e63fb5d1422eef4`
+
+`drosera.toml` is wired to this response contract. Replace it only if Kelp DAO provides an approved incident router.
 
 The trap was generated using the local Drosera MCP context and follows the Drosera `collect()` / `shouldRespond()` interface used in the provided Drosera examples.
-

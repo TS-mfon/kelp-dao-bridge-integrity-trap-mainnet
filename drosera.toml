@@ -4,12 +4,11 @@ eth_chain_id = 1
 
 [traps.kelp_dao_bridge_integrity_trap_mainnet]
 path = "out/KelpDaoBridgeIntegrityTrap.sol/KelpDaoBridgeIntegrityTrap.json"
-response_contract = "0x0000000000000000000000000000000000000000"
+response_contract = "0xF729Ef4be7AA124e9d8C093d4C7E2a19378b549D"
 response_function = "handleKelpBridgeRisk(uint8,uint256,address,uint256,bytes)"
 cooldown_period_blocks = 20
 min_number_of_operators = 1
 max_number_of_operators = 2
 block_sample_size = 2
 private_trap = false
-whitelist = []
-
+whitelist = ['0xdcE1AE1Deb32d990dFf06A0fcba435Ea9FAD39d9']
