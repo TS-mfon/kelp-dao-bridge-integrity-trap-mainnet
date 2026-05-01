@@ -1,0 +1,12 @@
+{
+  "name": "kelp-dao-bridge-integrity-trap-mainnet",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test -vvv",
+    "dryrun": "drosera dryrun",
+    "plan": "drosera plan"
+  }
+}
+
